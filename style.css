@@ -1,0 +1,71 @@
+/* Styles go here */
+
+.lvl-over {
+	/* applied to a drop target when a draggable object is over it */
+	border: 2px dashed black !important;
+}
+
+.lvl-target {
+	/* applied to all drop targets when a drag operation begins, used to indicate drop targets on a page */
+	background-color: #ddd;
+	/*opacity: .5;*/
+}
+
+[draggable] {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	/* Required to make elements draggable in old WebKit */
+	-khtml-user-drag: element;
+	-webkit-user-drag: element;
+	cursor: move;
+}
+
+.panel {
+	font-size: 16px;
+	font-weight: 500;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+.slot {
+	margin-right:2px;
+	margin-top:2px;
+	width:100%;
+	height:40px;
+    display:inline-block;
+    border: none;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.violet {
+	background-color: violet;
+	color: white;
+}
+
+.indigo {
+	background-color: indigo;
+}
+.yellow {
+	background-color: yellow;
+}
+.orange {
+	background-color: orange;
+}
+
+pre strong {
+	font-size:12pt;
+}
